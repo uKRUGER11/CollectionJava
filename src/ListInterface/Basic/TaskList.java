@@ -19,10 +19,7 @@ public class TaskList {
         for (Task t : tasksList) {
             if (t.getDescription().equalsIgnoreCase(description)) {
                 tasksToRemove.add(t);
-<<<<<<< HEAD
-=======
                 tasksList.remove(t);
->>>>>>> 6cd2e54 (Operações básicas da collection List)
             }
         }
 
