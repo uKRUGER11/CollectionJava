@@ -2,8 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-!**/src/SetInterface/Basic/
-!**/src/SetInterface/Challenge/
+out/subdiretorio1/
+out/src/SetInterface/Basic/
+**/src/SetInterface/Challenge/
+
 
 ### Eclipse ###
 .apt_generated
