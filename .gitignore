@@ -2,9 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-out/subdiretorio1/
-out/src/SetInterface/Basic/
-**/src/SetInterface/Challenge/
+out/src/SetInterface/Basic/Guests.java
+out/src/SetInterface/Basic/GuestsSet.java
+out/src/SetInterface/Basic/Main.java
 
 
 ### Eclipse ###
