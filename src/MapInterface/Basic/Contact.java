@@ -1,4 +1,4 @@
-package MapInterface.Search;
+package MapInterface.Basic;
 
 public class Contact {
     private String name;

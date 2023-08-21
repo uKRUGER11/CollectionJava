@@ -2,18 +2,16 @@ package MapInterface.Search;
 
 public class Main {
     public static void main(String[] args) {
-        Dictionary dict = new Dictionary();
+        ProductStock stock = new ProductStock();
 
-        dict.addWord("Pelé", "Que ou aquele que é fora do comum, que ou quem em virtude de sua qualidade, " +
-                "valor ou superioridade não pode ser igualado a nada ou a ninguém, assim como Pelé");
-        dict.addWord("Ajudante", "Aquele que ajuda a algúem ou algo.");
-        dict.addWord("Violino", "Instrumento musical.");
-        dict.addWord("Zebra", "Animal com listras pretas e brancas.");
+        stock.addProduct(2L, "Mouse", 5.0, 10);
+        stock.addProduct(1L, "Iphone 14", 10.0, 4);
+        stock.addProduct(3L, "Teclado", 15.0, 2);
+        stock.findAll();
 
-        dict.findAll();
-        dict.removeWord("Violino");
-        dict.findAll();
-
-        System.out.println("A definição dessa palavra é: " + dict.findByWord("Zebra"));
+        System.out.println("Valor total do estoque:  R$" + stock.TotalStockValue());
+        System.out.println("Produto mais caro: " + stock.mostProduct());
+        System.out.println("Produto mais barato: " + stock.leastProduct());
+        System.out.println("Produto que está em maior quantidade e valor no estoque: "+ stock.maxValuePerQuantity());
     }
 }
