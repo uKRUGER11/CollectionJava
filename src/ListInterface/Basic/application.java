@@ -10,5 +10,9 @@ public class application {
         taskList.findAllDescriptions();
         taskList.removeTasks("Limpar a casa");
         taskList.findAllDescriptions();
+        taskList.removeTasks("Limpar a casa");
+        taskList.findAllDescriptions();
+
+        System.out.println("Número total de tarefas: " + taskList.findAllTasks());
     }
 }

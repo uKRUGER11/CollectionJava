@@ -19,6 +19,7 @@ public class TaskList {
         for (Task t : tasksList) {
             if (t.getDescription().equalsIgnoreCase(description)) {
                 tasksToRemove.add(t);
+                tasksList.remove(t);
             }
         }
 
