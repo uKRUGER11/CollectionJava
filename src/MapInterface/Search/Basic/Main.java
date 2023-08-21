@@ -1,4 +1,4 @@
-package MapInterface.Search;
+package MapInterface.Search.Basic;
 
 public class Main {
     public static void main(String[] args) {

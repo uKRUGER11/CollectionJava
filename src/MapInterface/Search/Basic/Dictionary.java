@@ -1,4 +1,4 @@
-package MapInterface.Search;
+package MapInterface.Search.Basic;
 
 import java.util.Map;
 import java.util.TreeMap;

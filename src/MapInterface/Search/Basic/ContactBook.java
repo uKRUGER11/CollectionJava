@@ -1,4 +1,4 @@
-package MapInterface.Search;
+package MapInterface.Search.Basic;
 
 import java.util.HashMap;
 import java.util.Map;
