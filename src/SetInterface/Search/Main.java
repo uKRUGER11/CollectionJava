@@ -13,7 +13,7 @@ public class Main {
         contactBook.findAll();
 
         System.out.println(contactBook.findByName("Carlos"));
-        System.out.println("Contato atualizado: " + contactBook.updateContact("Carlos", 1010188));
+        System.out.println("Contato atualizado: " + contactBook.updatedContact("Carlos", 1010188));
         contactBook.findAll();
     }
 }

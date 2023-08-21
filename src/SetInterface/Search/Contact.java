@@ -19,6 +19,10 @@ public class Contact {
         return number;
     }
 
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -34,9 +38,6 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact{" +
-                "name='" + name + '\'' +
-                ", number=" + number +
-                '}';
+        return "(" + name + ", " + number + ")";
     }
 }
